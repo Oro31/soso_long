@@ -21,5 +21,6 @@ int	ft_load_xpmfiles(t_vars *vars)
 		|| vars->monde.cdoor.img == NULL || vars->monde.odoor.img == NULL
 		|| vars->ply.spr.img == NULL)
 		return (0);
+	vars->xpm = 1;
 	return (1);
 }
